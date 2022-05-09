@@ -8,7 +8,7 @@ import App from './App';
 describe('<App />', () => {
     it('renders a list of characters', async () => {
       render(
-        <MemoryRouter>
+        <MemoryRouter initialEntries={['/characters']}>
           <App />
         </MemoryRouter>
       );
