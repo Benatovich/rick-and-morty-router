@@ -4,7 +4,6 @@ import List from './views/List'
 
 export default function App() {
   return (
-    <Router>
       <Switch>
         <Route path='/characters/:id'>
           <Details />
@@ -13,6 +12,5 @@ export default function App() {
           <List />
         </Route>
       </Switch>
-    </Router>
   )
 }
